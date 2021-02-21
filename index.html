@@ -18,6 +18,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     </head>
     <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Ammar Dodin</a>
         <div class="collapse navbar-collapse">
@@ -38,221 +39,223 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
+
         <section id="about" class="container">
-            <h1 class="display-5">Ammar Dodin</h1>
-            <p>
-                I am a software engineer and technologist based out of the greater Boston area.
-                My interests are broad and span distributed systems, cloud infrastructure, developer
-                tooling, automation, secruity and database systems. I was born and raised in Jordan,
-                and I spent all of my childhood and teenage years in Amman. In my free time, I enjoy reading,
-                exploring new technology, playing soccer, and visting the best breweries in New England. 
-            </p>
-            <p>
-            <div class="container">
-                <span class="badge badge-info bg-primary ">Python</span>
-                <span class="badge badge-info bg-primary">Golang</span>
-                <span class="badge badge-info bg-primary">AWS</span>
-                <span class="badge badge-info bg-primary">Terraform</span>
-                <span class="badge badge-info bg-primary">Ansible</span>
-                <span class="badge badge-info bg-primary">Git</span>
-                <span class="badge badge-info bg-primary">Docker</span>
+            <h2> Ammar Dodin </h2>
+                <div class="card-text">
+                    I am a software engineer and technologist based out of the greater Boston area.
+                    My interests are broad and span distributed systems, cloud infrastructure, developer
+                    tooling, automation, secruity and database systems. I was born and raised in Jordan,
+                    and I spent all of my childhood and teenage years in Amman. In my free time, I enjoy reading,
+                    exploring new technology, playing soccer, and visting the best breweries in New England. 
+                </div>
+                <div class="container">
+                    <span class="badge badge-info bg-primary ">Python</span>
+                    <span class="badge badge-info bg-primary">Golang</span>
+                    <span class="badge badge-info bg-primary">AWS</span>
+                    <span class="badge badge-info bg-primary">Terraform</span>
+                    <span class="badge badge-info bg-primary">Ansible</span>
+                    <span class="badge badge-info bg-primary">Git</span>
+                    <span class="badge badge-info bg-primary">Docker</span>
+                </div>
+            
+        </section>
+
+
+        <section id="experience" class="container">
+            <h2> Experience </h2>
+
+            <div class="card">
+                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#exp1" aria-expanded="false" aria-controls="#exp1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-start" style="font-size: x-large">
+                                    Software Engineer
+                                </div>
+                                <div class="col text-end" style="font-size: x-large;">
+                                    <em>May 2020 - Current</em>
+                                </div>
+                            </div>
+                        </div>
+                </button>
+                <div class="card-body collapse" id="exp1">
+                    <div class="container">
+                        <a href="https://www.xandr.com/platform/" target="_blank">
+                            <div class="employerLogoContainer">
+                                <img src="xandr-logo.svg" class="employerLogo"/>
+                            </div>
+                        </a>
+                        <div class="card-text">
+                            Member of the TV Platform & Marketplace team working on advanced buy-side and sell-side advertising technology enabling buyers and sellers to access and trade premium inventory in a trusted and streamlined environment.
+                        </div>
+                        <div class="toolsContainer">
+                                <img src="golang-logo.svg" class="toolLogo"/>
+                                <img src="react-logo.svg" class="toolLogo"/>
+                                <img src="postgres-logo.svg" class="toolLogo"/>
+                                <img src="aws-logo.svg" class="toolLogo"/>
+                                <img src="docker-logo.svg" class="toolLogo"/>
+                                <img src="jenkins-logo.svg" class="toolLogo"/>
+                                <img src="ansible-logo.svg" class="toolLogo"/>
+                                <img src="terraform-logo.svg" class="toolLogo"/>
+                                <img src="packer-logo.svg" class="toolLogo"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#exp2" aria-expanded="false" aria-controls="#exp2">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-start" style="font-size: x-large">
+                                    Software Engineer
+                                </div>
+                                <div class="col text-end" style="font-size: x-large">
+                                    <em>April 2019 - April 2020</em>
+                                </div>
+                            </div>
+                        </div>
+                </button>
+                <div class="card-body collapse" id="exp2">
+                    <div class="container">
+                        <a href="https://www.logrocket.com" target="_blank">
+                            <div class="employerLogoContainer">
+                                <img src="logrocket-logo.png" class="employerLogo"/>
+                            </div>
+                        </a>
+                        <div class="card-text">
+                            7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.
+                        </div>
+                        <div class="toolsContainer">
+                            <img src="nodejs-logo.svg" class="toolLogo"/>
+                            <img src="react-logo.svg" class="toolLogo"/>
+                            <img src="python-logo.svg" class="toolLogo"/>
+                            <img src="django-logo.svg" class="toolLogo"/>
+                            <img src="postgres-logo.svg" class="toolLogo"/>
+                            <img src="graphql-logo.svg" class="toolLogo"/>
+                            <img src="es-logo.svg" class="toolLogo"/>
+                            <img src="redis-logo.svg" class="toolLogo"/>
+                            <img src="gcp-logo.svg" class="toolLogo"/>
+                            <img src="docker-logo.svg" class="toolLogo"/>
+                            <img src="k8s-logo.svg" class="toolLogo"/>
+                            <img src="helm-logo.svg" class="toolLogo"/>
+                            <img src="circleci-logo.svg" class="toolLogo"/>
+                        </div>
+                </div>
+            </div>
+            <div class="card">
+                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#exp3" aria-expanded="false" aria-controls="#exp3">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-start" style="font-size: x-large">
+                                    Staff Software Engineer
+                                </div>
+                                <div class="col text-end" style="font-size: x-large">
+                                    <em>August 2017 - April 2019</em>
+                                </div>
+                            </div>
+                        </div>
+                </button>
+                <div class="card-body collapse" id="exp3">
+                    <div class="container">
+                        <a href="https://www.ibm.com" target="_blank">
+                            <div class="employerLogoContainer">
+                                <img src="ibm-logo.svg" class="employerLogo"/>
+                            </div>
+                        </a>
+                        <div class="card-text">
+                            Initially worked on the Developer Experience team automating SDK generation. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.
+                        </div>
+                        <div class="toolsContainer">
+                            <img src="java-logo.svg" class="toolLogo"/>
+                            <img src="python-logo.svg" class="toolLogo"/>
+                            <img src="nodejs-logo.svg" class="toolLogo"/>
+                            <img src="mongodb-logo.svg" class="toolLogo"/>
+                            <img src="openapi-logo.svg" class="toolLogo"/>
+                            <img src="grpc-logo.svg" class="toolLogo"/>
+                            <img src="docker-logo.svg" class="toolLogo"/>
+                            <img src="k8s-logo.svg" class="toolLogo"/>
+                            <img src="ibmcloud-logo.svg" class="toolLogo"/>
+                            <img src="jenkins-logo.svg" class="toolLogo"/>
+                            <img src="travisci-logo.svg" class="toolLogo"/>
+                    </div>
+                    </div>
+                </div>
             </div>
         </section>
 
 
-    <section id="experience" class="container">
-        <h2> Experience </h2>
-
-        <div class="card">
-            <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#exp1" aria-expanded="false" aria-controls="#exp1">
+        <section id="education" class="container">
+            <h2> Education </h2>
+            <div class="card">
+                <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#education1" aria-expanded="false" aria-controls="#education1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col text-start" style="font-size: x-large">
+                                    B.S. Computer Science with Honors
+                                </div>
+                                <div class="col text-end" style="font-size: x-large">
+                                    <em>June 2017</em>
+                                </div>
+                            </div>
+                        </div>
+                </button>
+                <div class="card-body collapse" id="education1">
                     <div class="container">
-                        <div class="row">
-                            <div class="col text-start" style="font-size: x-large">
-                                Software Engineer
+                        <a href="https://www.ucdavis.edu" target="_blank">
+                            <div class="employerLogoContainer">
+                                <img src="ucdavis-logo.svg" class="employerLogo"/>
                             </div>
-                            <div class="col text-end" style="font-size: x-large;">
-                                <em>May 2020 - Current</em>
-                            </div>
+                        </a>
+                        <div class="card-text">
+                            Spent some of the best years of my life here. Had a ton of fun milking cows, enjoying one of the best farmer's marketplaces around, and getting a foundation in Computer Science.
                         </div>
-                    </div>
-            </button>
-            <div class="card-body collapse" id="exp1">
-                <div class="container">
-                    <a href="https://www.xandr.com/platform/" target="_blank">
-                        <div class="employerLogoContainer">
-                            <img src="xandr-logo.svg" class="employerLogo"/>
+                        <div class="container" style="flex-direction: row; flex-wrap: wrap;text-align: center;">
+                            <span class="badge badge-info bg-primary ">Software Development & Object-Oriented Programming</span>
+                            <span class="badge badge-info bg-primary">Data Structures & Algorithms</span>
+                            <span class="badge badge-info bg-primary">Operating Systems & Systems Programming</span>
+                            <span class="badge badge-info bg-primary">Big Data & High Performance Statistical Computing</span>
+                            <span class="badge badge-info bg-primary">Artificial Intelligence</span>
+                            <span class="badge badge-info bg-primary">Computer Vision</span>
+                            <span class="badge badge-info bg-primary">Computational Linguistics</span>
+                            <span class="badge badge-info bg-primary">Combinatorics</span>
+                            <span class="badge badge-info bg-primary">Computer Architecture</span>
+                            <span class="badge badge-info bg-primary">Algorithm Design & Analysis</span>
+                            <span class="badge badge-info bg-primary">Computer Organization & Machine-Dependent Programming</span>
+                            <span class="badge badge-info bg-primary">Programming Languages</span>
+                            <span class="badge badge-info bg-primary">Theory of Computation</span>
+                            <span class="badge badge-info bg-primary">Probability Theory</span>
                         </div>
-                    </a>
-                    <div class="card-text">
-                        Member of the TV Platform & Marketplace team working on advanced buy-side and sell-side advertising technology enabling buyers and sellers to access and trade premium inventory in a trusted and streamlined environment.
-                    </div>
-                    <div class="toolsContainer">
-                            <img src="golang-logo.svg" class="toolLogo"/>
-                            <img src="react-logo.svg" class="toolLogo"/>
-                            <img src="postgres-logo.svg" class="toolLogo"/>
-                            <img src="aws-logo.svg" class="toolLogo"/>
-                            <img src="docker-logo.svg" class="toolLogo"/>
-                            <img src="jenkins-logo.svg" class="toolLogo"/>
-                            <img src="ansible-logo.svg" class="toolLogo"/>
-                            <img src="terraform-logo.svg" class="toolLogo"/>
-                            <img src="packer-logo.svg" class="toolLogo"/>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="card">
-            <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#exp2" aria-expanded="false" aria-controls="#exp2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col text-start" style="font-size: x-large">
-                                Software Engineer
-                            </div>
-                            <div class="col text-end" style="font-size: x-large">
-                                <em>April 2019 - April 2020</em>
-                            </div>
-                        </div>
-                    </div>
-            </button>
-            <div class="card-body collapse" id="exp2">
-                <div class="container">
-                    <a href="https://www.logrocket.com" target="_blank">
-                        <div class="employerLogoContainer">
-                            <img src="logrocket-logo.png" class="employerLogo"/>
-                        </div>
-                    </a>
-                    <div class="card-text">
-                        7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.
-                    </div>
-                    <div class="toolsContainer">
-                        <img src="nodejs-logo.svg" class="toolLogo"/>
-                        <img src="react-logo.svg" class="toolLogo"/>
-                        <img src="python-logo.svg" class="toolLogo"/>
-                        <img src="django-logo.svg" class="toolLogo"/>
-                        <img src="postgres-logo.svg" class="toolLogo"/>
-                        <img src="graphql-logo.svg" class="toolLogo"/>
-                        <img src="es-logo.svg" class="toolLogo"/>
-                        <img src="redis-logo.svg" class="toolLogo"/>
-                        <img src="gcp-logo.svg" class="toolLogo"/>
-                        <img src="docker-logo.svg" class="toolLogo"/>
-                        <img src="k8s-logo.svg" class="toolLogo"/>
-                        <img src="helm-logo.svg" class="toolLogo"/>
-                        <img src="circleci-logo.svg" class="toolLogo"/>
-                    </div>
-            </div>
-        </div>
-        <div class="card">
-            <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#exp3" aria-expanded="false" aria-controls="#exp3">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col text-start" style="font-size: x-large">
-                                Staff Software Engineer
-                            </div>
-                            <div class="col text-end" style="font-size: x-large">
-                                <em>August 2017 - April 2019</em>
-                            </div>
-                        </div>
-                    </div>
-            </button>
-            <div class="card-body collapse" id="exp3">
-                <div class="container">
-                    <a href="https://www.ibm.com" target="_blank">
-                        <div class="employerLogoContainer">
-                            <img src="ibm-logo.svg" class="employerLogo"/>
-                        </div>
-                    </a>
-                    <div class="card-text">
-                        Initially worked on the Developer Experience team automating SDK generation. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.
-                    </div>
-                    <div class="toolsContainer">
-                        <img src="java-logo.svg" class="toolLogo"/>
-                        <img src="python-logo.svg" class="toolLogo"/>
-                        <img src="nodejs-logo.svg" class="toolLogo"/>
-                        <img src="mongodb-logo.svg" class="toolLogo"/>
-                        <img src="openapi-logo.svg" class="toolLogo"/>
-                        <img src="grpc-logo.svg" class="toolLogo"/>
-                        <img src="docker-logo.svg" class="toolLogo"/>
-                        <img src="k8s-logo.svg" class="toolLogo"/>
-                        <img src="ibmcloud-logo.svg" class="toolLogo"/>
-                        <img src="jenkins-logo.svg" class="toolLogo"/>
-                        <img src="travisci-logo.svg" class="toolLogo"/>
+        <section class="container" id="contact">
+            <h2>Contact</h2>
+            <div class="row">
+                <div class="col-sm-2">
+                    Email:
                 </div>
+                <div class="col-sm-4">
+                    <a href="mailto:ammardodin@gmail.com" target="_blank">
+                        ammardodin@gmail.com
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-
-    <section id="education" class="container">
-        <h2> Education </h2>
-        <div class="card">
-            <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#education1" aria-expanded="false" aria-controls="#education1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col text-start" style="font-size: x-large">
-                                B.S. Computer Science with Honors
-                            </div>
-                            <div class="col text-end" style="font-size: x-large">
-                                <em>June 2017</em>
-                            </div>
-                        </div>
-                    </div>
-            </button>
-            <div class="card-body collapse" id="education1">
-                <div class="container">
-                    <a href="https://www.ucdavis.edu" target="_blank">
-                        <div class="employerLogoContainer">
-                            <img src="ucdavis-logo.svg" class="employerLogo"/>
-                        </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    LinkedIn:
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://linkedin.com/in/adodin" target="_blank">
+                        linkedin.com/in/adodin
                     </a>
-                    <div class="card-text">
-                        Spent some of the best years of my life here. Had a ton of fun milking cows, enjoying one of the best farmer's marketplaces around, and getting a foundation in Computer Science.
-                    </div>
-                    <div class="container" style="flex-direction: row; flex-wrap: wrap;text-align: center;">
-                        <span class="badge badge-info bg-primary ">Software Development & Object-Oriented Programming</span>
-                        <span class="badge badge-info bg-primary">Data Structures & Algorithms</span>
-                        <span class="badge badge-info bg-primary">Operating Systems & Systems Programming</span>
-                        <span class="badge badge-info bg-primary">Big Data & High Performance Statistical Computing</span>
-                        <span class="badge badge-info bg-primary">Artificial Intelligence</span>
-                        <span class="badge badge-info bg-primary">Computer Vision</span>
-                        <span class="badge badge-info bg-primary">Computational Linguistics</span>
-                        <span class="badge badge-info bg-primary">Combinatorics</span>
-                        <span class="badge badge-info bg-primary">Computer Architecture</span>
-                        <span class="badge badge-info bg-primary">Algorithm Design & Analysis</span>
-                        <span class="badge badge-info bg-primary">Computer Organization & Machine-Dependent Programming</span>
-                        <span class="badge badge-info bg-primary">Programming Languages</span>
-                        <span class="badge badge-info bg-primary">Theory of Computation</span>
-                        <span class="badge badge-info bg-primary">Probability Theory</span>
-                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="container" id="contact">
-        <h2>Contact</h2>
-        <div class="row">
-            <div class="col-sm-2">
-                Email:
-            </div>
-            <div class="col-sm-4">
-                <a href="mailto:ammardodin@gmail.com" target="_blank">
-                    ammardodin@gmail.com
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-2">
-                LinkedIn:
-            </div>
-            <div class="col-sm-4">
-                <a href="https://linkedin.com/in/adodin" target="_blank">
-                    linkedin.com/in/adodin
-                </a>
-            </div>
-        </div>
-      </section>
     </div>
     <body>
 </html>
