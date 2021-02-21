@@ -1,0 +1,204 @@
+# Page settings
+
+baseURL = "https://ammardodin.com/"
+languageCode = "en"
+title = "Ammar Dodin"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Ammar Dodin"
+    description = "CV"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Ammar Dodin"
+        tagline = "Software Engineer"
+        avatar = "ammardodin.jpeg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Boston"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "617-803-5573"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "ammardodin@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.ammardodin.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Golang/Java/Node.js/Python"
+        [[params.skills.list.items]]
+        details = "Terraform/Ansible/Packer"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MongoDB"
+        [[params.skills.list.items]]
+        details = "Amazon Web Services/Google Cloud Platform"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "B.S. Computer Science"
+        university = "University of California, Davis"
+        dates = "2013 - 2017"
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Arabic"
+        level = "Native"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Reading"
+        [[params.interests.list]]
+        name = "Traveling"
+        [[params.interests.list]]
+        name = "Soccer"
+        [[params.interests.list]]
+        name = "Beer"
+
+
+    [params.summary]
+        enable = true
+        text = "I am a software engineer and technologist based out of the greater Boston area. My interests are broad and span distributed systems, cloud infrastructure, developer tooling, automation, secruity and database systems. I was born and raised in Jordan, and I spent all of my childhood and teenage years in Amman. In my free time, I enjoy reading, exploring new technology, playing soccer, and visting the best breweries in New England."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "04/2020 - Present"
+        company = "Xandr, Inc."
+        details = "Member of the TV Platform & Marketplace team working on advanced buy-side and sell-side advertising technology enabling buyers and sellers to access and trade premium inventory in a trusted and streamlined environment.\n\n **Tech**:\n * Golang, React\n * SQS, PostgreSQL(RDS), Redshift\n * Docker, AWS\n * Ansible, Terraform, Jenkins, Packer"
+
+        [[params.experience.list]]
+        title = "Backend Services Engineer"
+        dates = "04/2019 - 04/2020"
+        company = "LogRocket, Inc."
+        details = "7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.\n\n **Tech**:\n * NodeJS, Python (Django), React, GraphQL\n  * Redis, PostgreSQL, Elasticsearch, Bigtable\n * Docker, Kubernetes, Helm, Google Cloud Platform"
+
+        [[params.experience.list]]
+        title = "Staff Software Engineer"
+        dates = "08/2017 - 04/2019"
+        company = "IBM"
+        details = "Initially worked on the Developer Experience team automating SDK generation. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.\n\n **Tech**:\n * NodeJS, Python, Java, gRPC\n * Swagger, OpenAPI\n * MongoDB, Cassandra\n * Docker, Kubernetes, Helm"
+
+        [[params.experience.list]]
+        title = "Software Engineering Intern"
+        dates = "06/2017 - 09/2017"
+        company = "MathWorks"
+        details = "Interned on the Embedded Coder team, which enables MATLAB users to generate target-specific embedded code from MATLAB source. I analyzed numerous generation reports to find bottlenecks and help speed up generation time. Additionally, built an internal test-framework to improve numerical verification of Simulink models.\n\n **Tech**:\n * C++, Python, XML"
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/ammardodin"
+        title = "ammardodin"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://linkedin.com/in/adodin"
+        title = "adodin"
