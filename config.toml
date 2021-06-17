@@ -133,20 +133,25 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2021 - Current"
+        company = "Journera, Inc."
+        details = "Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies.\n\n **Tech**:\n * Golang, Python, Ember.js\n * MySQL, Memcached, Kinesis, Kafka, SQS\n * AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite"
+        [[params.experience.list]]
         title = "Software Engineer"
-        dates = "04/2020 - Present"
+        dates = "2020 - 2021"
         company = "Xandr, Inc."
         details = "Member of the TV Platform & Marketplace team working on advanced buy-side and sell-side advertising technology enabling buyers and sellers to access and trade premium inventory in a trusted and streamlined environment.\n\n **Tech**:\n * Golang, React\n * SQS, PostgreSQL(RDS), Redshift\n * Docker, AWS\n * Ansible, Terraform, Jenkins, Packer"
 
         [[params.experience.list]]
         title = "Backend Services Engineer"
-        dates = "04/2019 - 04/2020"
+        dates = "2019 - 2020"
         company = "LogRocket, Inc."
-        details = "7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.\n\n **Tech**:\n * NodeJS, Python (Django), React, GraphQL\n  * Redis, PostgreSQL, Elasticsearch, Bigtable\n * Docker, Kubernetes, Helm, Google Cloud Platform"
+        details = "7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.\n\n **Tech**:\n * NodeJS, Python (Django), React, GraphQL\n  * Redis, PubSubm PostgreSQL, Elasticsearch, Bigtable\n * Docker, Kubernetes, Helm, Google Cloud Platform"
 
         [[params.experience.list]]
         title = "Staff Software Engineer"
-        dates = "08/2017 - 04/2019"
+        dates = "2017 - 2019"
         company = "IBM"
         details = "Initially worked on the Developer Experience team automating SDK generation. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.\n\n **Tech**:\n * NodeJS, Python, Java, gRPC\n * Swagger, OpenAPI\n * MongoDB, Cassandra\n * Docker, Kubernetes, Helm"
 
