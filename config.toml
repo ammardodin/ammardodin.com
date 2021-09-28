@@ -4,11 +4,7 @@ baseURL = "https://ammardodin.com/"
 languageCode = "en"
 title = "Ammar Dodin"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
-
-
-
-
+# googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
@@ -38,10 +34,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         location = "Boston"
 
-        [[params.contact.list]]
-        icon = "fas fa-phone-square"
-        url = "tel:#"
-        text = "617-803-5573"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
@@ -122,7 +114,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.interests.list]]
         name = "Soccer"
         [[params.interests.list]]
-        name = "Beer"
+        name = "Craft Beer"
 
 
     [params.summary]
@@ -136,7 +128,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Senior Software Engineer"
         dates = "2021 - Current"
         company = "Journera, Inc."
-        details = "Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies. I have been primarily doing server-side development in Golang on AWS, and as of most recent, I've been focused on expanding our integrations with Airline partners and marketing data platforms.\n\n **Tech**:\n * Golang, Python, Ember.js\n * MySQL, Memcached, Kinesis, Kafka, SQS\n * AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite"
+        details = "Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies.\n\nI have been primarily doing server-side development in Golang on AWS, and as of most recent, I've been focused on expanding our integrations with Airline partners and marketing data platforms.\n\n **Tech**:\n * Golang, Python, Ember.js\n * MySQL, Memcached, Kinesis, Kafka, SQS\n * AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite"
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "2020 - 2021"
