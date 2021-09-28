@@ -136,7 +136,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Senior Software Engineer"
         dates = "2021 - Current"
         company = "Journera, Inc."
-        details = "Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies.\n\n **Tech**:\n * Golang, Python, Ember.js\n * MySQL, Memcached, Kinesis, Kafka, SQS\n * AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite"
+        details = "Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies. I have been primarily doing server-side development in Golang on AWS, and as of most recent, I've been focused on expanding our integrations with Airline partners and marketing data platforms.\n\n **Tech**:\n * Golang, Python, Ember.js\n * MySQL, Memcached, Kinesis, Kafka, SQS\n * AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite"
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "2020 - 2021"
@@ -153,13 +153,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Staff Software Engineer"
         dates = "2017 - 2019"
         company = "IBM"
-        details = "Initially worked on the Developer Experience team automating SDK generation. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.\n\n **Tech**:\n * NodeJS, Python, Java, gRPC\n * Swagger, OpenAPI\n * MongoDB, Cassandra\n * Docker, Kubernetes, Helm"
+        details = "Briefly worked on the Developer Experience team automating SDK generation from API specifications. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.\n\n **Tech**:\n * NodeJS, Python, Java, gRPC\n * Swagger, OpenAPI\n * MongoDB, Cassandra\n * Docker, Kubernetes, Helm"
 
         [[params.experience.list]]
         title = "Software Engineering Intern"
-        dates = "06/2016 - 09/2016"
+        dates = "2016"
         company = "MathWorks"
-        details = "Interned on the Embedded Coder team, which enables MATLAB users to generate target-specific embedded code from MATLAB source. I analyzed numerous generation reports to find bottlenecks and help speed up generation time. Additionally, built an internal test-framework to improve numerical verification of Simulink models.\n\n **Tech**:\n * C++, Python, XML"
+        details = "Interned on the Embedded Coder team; a sub-product that enables MATLAB users to generate target-specific embedded code from MATLAB source. I analyzed numerous generation reports to find bottlenecks and help speed up generation time. Additionally, built an internal test-framework to improve numerical verification of Simulink models.\n\n **Tech**:\n * C++, Python, XML"
 
 
     [params.projects]
