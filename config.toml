@@ -39,13 +39,13 @@ theme = "hugo-devresume-theme"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "Golang/Java/Node.js/Python"
+        details = "Golang/Python"
         [[params.skills.list.items]]
-        details = "Terraform/Ansible/Packer"
+        details = "Terraform/Kubernetes"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MongoDB"
+        details = "PostgreSQL/Redis"
         [[params.skills.list.items]]
-        details = "Amazon Web Services/Google Cloud Platform"
+        details = "Amazon Web Services"
 
 
     [params.education]
