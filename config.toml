@@ -128,7 +128,7 @@ The Alation Metadata Catalog is an empty canvas until it is populated with metad
         details = """
 Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies.
         
-I unblocked integrations with smaller travel partners whereby I developed shims to bring their file-based data into our system's front-door event API. Additionally, I built real-time pipelines to bring data from airline partners' data streams into the Journera platform, and I expanded our integrations with marketing data platforms.
+I unblocked integrations with smaller travel partners whereby I developed shims to bring their file-based data into Journera's event API. Additionally, I built real-time pipelines to bring data from airline partners' data streams into the Journera platform, and I expanded our integrations with marketing data platforms.
         
 **Tools**:
 
@@ -162,7 +162,8 @@ LogRocket is a state-of-the-art session replay and monitoring technology. LogRoc
 
 I was the 7th engineering hire. I had a lot of fun wearing many hats working on data ingestion, browser SDK, search, real-time alerts, cloud infrastructure, and cost-cutting initiatives. I Even had a chance to work on recruiting and interact with customers through support rotations.
 
-**Tech**:
+**Tools**:
+
 * NodeJS, Python (Django), GraphQL
 * Redis, Google PubSub
 * PostgreSQL, Elasticsearch, Google Bigtable
@@ -191,7 +192,7 @@ Briefly worked on the Developer Experience team automating SDK generation from A
         details = """
 Interned on the Embedded Coder team; a sub-product that enables MATLAB users to generate target-specific embedded code from MATLAB source. I analyzed numerous generation reports to find bottlenecks and help speed up generation time. Additionally, built an internal test-framework to improve numerical verification of Simulink models.
 
-**Tech**:
+**Tools**:
 
 * C++, Python, XML
 """
