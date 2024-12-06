@@ -29,7 +29,7 @@ theme = "hugo-devresume-theme"
         text = "ammardodin@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
+        url = "www.ammardodin.com"
         text = "www.ammardodin.com"
 
 
