@@ -1,0 +1,31 @@
+name: Build and Deploy Hugo Site to S3
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.139.3'
+
+      - name: Build Hugo site
+        run: hugo build
+      
+      - name: Setup AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::485190645114:role/hugo-github-actions
+          aws-region: us-east-1
+      
+      - name: Deploy Hugo site
+        run: hugo deploy

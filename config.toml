@@ -10,25 +10,14 @@ theme = "hugo-devresume-theme"
 [params]
     author = "Ammar Dodin"
     description = "CV"
-
-
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
-
-
-
 
     [params.profile]
         enable = true
         name = "Ammar Dodin"
         tagline = "Software Engineer"
         avatar = "ammardodin.jpeg"
-
-
-
-
-
-
 
     [params.contact]
         enable = true
@@ -42,11 +31,6 @@ theme = "hugo-devresume-theme"
         icon = "fas fa-globe"
         url = "#"
         text = "www.ammardodin.com"
-
-
-
-
-
 
 
     [params.skills]
@@ -70,7 +54,7 @@ theme = "hugo-devresume-theme"
         [[params.education.list]]
         degree = "B.S. Computer Science"
         university = "University of California, Davis"
-        dates = "2013 - 2017"
+        dates = "2012 - 2016"
 
 
 
@@ -85,12 +69,6 @@ theme = "hugo-devresume-theme"
         name = "Award Donec Sodales"
         body = "Oracle Aenean"
         date = "2017"
-
-
-
-
-
-
 
 
     [params.languages]
@@ -123,36 +101,95 @@ theme = "hugo-devresume-theme"
 
     [params.experience]
         enable = true
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2022 - Current"
+        company = "Alation, Inc."
+        details = """
+Alation is a metadata intelligence platform that allows businesses to harness the power of their metadata to realize value for every data and AI intiative.
+
+The Alation Metadata Catalog is an empty canvas until it is populated with metadata. I own, operate, and contribute to the platform infrastructure and services that enable pulling metadata from customers’ on-premise and cloud databases into Alation. That encompasses several components:
+
+* [Alation Agent](https://docs.alation.com/en/latest/cloud/AlationAgent/index.html): An on-premise appliance, accompanied by a suite of cloud services, customers install within their network boundray to bring in metadata into Alation’s cloud without poking holes in their firewalls
+* [Open Connector Framework](https://docs.alation.com/en/latest/sources/OpenConnectorFramework/OCFOverview.html): a framework that enables Alation and its partners to quickly build database connectors
+* [Alation Connector Manager](https://docs.alation.com/en/latest/sources/OpenConnectorFramework/OCFOverview.html#alation-connector-manager): a stack that orchestrates and manages the database connectors both in Alation's cloud and in customers' environments
+        
+**Tech**:
+
+* Golang, Python, Rust, Java
+* PostgreSQL, Redis, S3
+* AWS, Terraform, Docker, Kubernetes, Apache Airflow
+        """
 
         [[params.experience.list]]
         title = "Senior Software Engineer"
-        dates = "2021 - Current"
+        dates = "2020 - 2022"
         company = "Journera, Inc."
-        details = "Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies.\n\nI have been primarily doing server-side development in Golang on AWS, and as of most recent, I've been focused on expanding our integrations with Airline partners and marketing data platforms.\n\n **Tech**:\n * Golang, Python, Ember.js\n * MySQL, Memcached, Kinesis, Kafka, SQS\n * AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite"
+        details = """
+Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies.
+        
+I have been primarily doing server-side development in Golang on AWS, and as of most recent, I've been focused on expanding our integrations with Airline partners and marketing data platforms.
+        
+**Tech**:
+
+* Golang, Python, Ember.js
+* MySQL, Memcached, Kinesis, Kafka, SQS
+* AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite
+        """
         [[params.experience.list]]
         title = "Software Engineer"
-        dates = "2020 - 2021"
+        dates = "2019 - 2020"
         company = "Xandr, Inc."
-        details = "Member of the TV Platform & Marketplace team working on advanced buy-side and sell-side advertising technology enabling buyers and sellers to access and trade premium inventory in a trusted and streamlined environment.\n\n **Tech**:\n * Golang, React\n * SQS, PostgreSQL(RDS), Redshift\n * Docker, AWS\n * Ansible, Terraform, Jenkins, Packer"
+        details = """
+Member of the TV Platform & Marketplace team working on advanced buy-side and sell-side advertising technology enabling buyers and sellers to access and trade premium inventory in a trusted and streamlined environment.
+
+Primarily focused on streamlining ingestion of media partner inventory into the platform, and optimizing the platform's reach engine for reporting purposes. 
+
+**Tech**:
+* Golang
+* SQS, PostgreSQL(RDS), Redshift
+* Docker, AWS
+* Ansible, Terraform, Jenkins, Packer
+"""
 
         [[params.experience.list]]
         title = "Backend Services Engineer"
-        dates = "2019 - 2020"
+        dates = "2018 - 2019"
         company = "LogRocket, Inc."
-        details = "7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.\n\n **Tech**:\n * NodeJS, Python (Django), React, GraphQL\n  * Redis, PubSubm PostgreSQL, Elasticsearch, Bigtable\n * Docker, Kubernetes, Helm, Google Cloud Platform"
+        details = """
+7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.
+
+**Tech**:
+* NodeJS, Python (Django), React, GraphQL
+* Redis, Google PubSub
+* PostgreSQL, Elasticsearch, Bigtable
+* Docker, Kubernetes, Helm, Google Cloud Platform
+"""
 
         [[params.experience.list]]
         title = "Staff Software Engineer"
-        dates = "2017 - 2019"
+        dates = "2016 - 2018"
         company = "IBM"
-        details = "Briefly worked on the Developer Experience team automating SDK generation from API specifications. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.\n\n **Tech**:\n * NodeJS, Python, Java, gRPC\n * Swagger, OpenAPI\n * MongoDB, Cassandra\n * Docker, Kubernetes, Helm"
+        details = """
+Briefly worked on the Developer Experience team automating SDK generation from API specifications. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.
+
+ **Tech**:
+ * NodeJS, Python, Java, gRPC
+ * Swagger, OpenAPI
+ * MongoDB, Cassandra
+ * Docker, Kubernetes, Helm
+"""
 
         [[params.experience.list]]
         title = "Software Engineering Intern"
         dates = "2016"
         company = "MathWorks"
-        details = "Interned on the Embedded Coder team; a sub-product that enables MATLAB users to generate target-specific embedded code from MATLAB source. I analyzed numerous generation reports to find bottlenecks and help speed up generation time. Additionally, built an internal test-framework to improve numerical verification of Simulink models.\n\n **Tech**:\n * C++, Python, XML"
+        details = """
+Interned on the Embedded Coder team; a sub-product that enables MATLAB users to generate target-specific embedded code from MATLAB source. I analyzed numerous generation reports to find bottlenecks and help speed up generation time. Additionally, built an internal test-framework to improve numerical verification of Simulink models.
 
+**Tech**:
+* C++, Python, XML
+"""
 
     [params.projects]
         enable = false
@@ -199,3 +236,7 @@ theme = "hugo-devresume-theme"
         icon = "fab fa-linkedin"
         url = "https://linkedin.com/in/adodin"
         title = "adodin"
+
+[[deployment.targets]]
+URL="s3://ammardodin.com?region=us-east-1"
+cloudFrontDistributionID="E107V9N07SZUZC"
