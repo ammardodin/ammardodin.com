@@ -158,7 +158,9 @@ Primarily focused on streamlining ingestion of media partner inventory into the 
         dates = "2018 - 2019"
         company = "LogRocket, Inc."
         details = """
-7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, search, real-time alerts, cloud infrastructure, and cost-cutting initiatives. I Even had a chance to work on recruiting and interact with customers through support rotations.
+LogRocket is a state-of-the-art session replay and monitoring technology. LogRocket gives engineering and product teams unbridled access to see how users interact with their product and insight into how to improve each and every user experience.
+
+I was the 7th engineering hire. I had a lot of fun wearing many hats working on data ingestion, browser SDK, search, real-time alerts, cloud infrastructure, and cost-cutting initiatives. I Even had a chance to work on recruiting and interact with customers through support rotations.
 
 **Tech**:
 * NodeJS, Python (Django), GraphQL
