@@ -128,7 +128,7 @@ The Alation Metadata Catalog is an empty canvas until it is populated with metad
         details = """
 Journera is a travel technology company. We partner with travel providers, marketers, and technologists to bring together a real-time view of a traveler’s journey. With the secure and private exchange of shared customer data, we elevate travel experiences, strengthen loyalty, increase direct engagement, and facilitate operational efficiencies.
         
-I have been primarily doing server-side development in Golang on AWS, and as of most recent, I've been focused on expanding our integrations with Airline partners and marketing data platforms.
+I unblocked integrations with smaller travel partners whereby I developed shims to bring their file-based data into our system's front-door event API. Additionally, I built real-time pipelines to bring data from airline partners' data streams into the Journera platform, and I expanded our integrations with marketing data platforms.
         
 **Tools**:
 
@@ -158,7 +158,7 @@ Primarily focused on streamlining ingestion of media partner inventory into the 
         dates = "2018 - 2019"
         company = "LogRocket, Inc."
         details = """
-7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.
+7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, search, real-time alerts, cloud infrastructure, and cost-cutting initiatives. I Even had a chance to work on recruiting and interact with customers through support rotations.
 
 **Tech**:
 * NodeJS, Python (Django), GraphQL
