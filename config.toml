@@ -114,7 +114,7 @@ The Alation Metadata Catalog is an empty canvas until it is populated with metad
 * [Open Connector Framework](https://docs.alation.com/en/latest/sources/OpenConnectorFramework/OCFOverview.html): a framework that enables Alation and its partners to quickly build database connectors
 * [Alation Connector Manager](https://docs.alation.com/en/latest/sources/OpenConnectorFramework/OCFOverview.html#alation-connector-manager): a stack that orchestrates and manages the database connectors both in Alation's cloud and in customers' environments
         
-**Tech**:
+**Tools**:
 
 * Golang, Python, Rust, Java
 * PostgreSQL, Redis, S3
@@ -130,9 +130,9 @@ Journera is a travel technology company. We partner with travel providers, marke
         
 I have been primarily doing server-side development in Golang on AWS, and as of most recent, I've been focused on expanding our integrations with Airline partners and marketing data platforms.
         
-**Tech**:
+**Tools**:
 
-* Golang, Python, Ember.js
+* Golang
 * MySQL, Memcached, Kinesis, Kafka, SQS
 * AWS, Terraform, Packer, Docker, ECS, Ansible, BuildKite
         """
@@ -145,7 +145,8 @@ Member of the TV Platform & Marketplace team working on advanced buy-side and se
 
 Primarily focused on streamlining ingestion of media partner inventory into the platform, and optimizing the platform's reach engine for reporting purposes. 
 
-**Tech**:
+**Tools**:
+
 * Golang
 * SQS, PostgreSQL(RDS), Redshift
 * Docker, AWS
@@ -160,9 +161,9 @@ Primarily focused on streamlining ingestion of media partner inventory into the 
 7th engineering hire. Had a lot of fun wearing many hats working on data ingestion, browser SDK, session playback, search, alerting, cloud infrastructure, and some front-end. Even had a chance to work on recruiting and interact with customers through support rotations.
 
 **Tech**:
-* NodeJS, Python (Django), React, GraphQL
+* NodeJS, Python (Django), GraphQL
 * Redis, Google PubSub
-* PostgreSQL, Elasticsearch, Bigtable
+* PostgreSQL, Elasticsearch, Google Bigtable
 * Docker, Kubernetes, Helm, Google Cloud Platform
 """
 
@@ -173,9 +174,10 @@ Primarily focused on streamlining ingestion of media partner inventory into the 
         details = """
 Briefly worked on the Developer Experience team automating SDK generation from API specifications. Then, moved to Watson Assistant to work on model-lifecycle-management microservices that power Assistant's API.
 
- **Tech**:
- * NodeJS, Python, Java, gRPC
- * Swagger, OpenAPI
+ **Tools**:
+
+ * NodeJS, Python, Java
+ * Swagger, OpenAPI, gRPC
  * MongoDB, Cassandra
  * Docker, Kubernetes, Helm
 """
@@ -188,6 +190,7 @@ Briefly worked on the Developer Experience team automating SDK generation from A
 Interned on the Embedded Coder team; a sub-product that enables MATLAB users to generate target-specific embedded code from MATLAB source. I analyzed numerous generation reports to find bottlenecks and help speed up generation time. Additionally, built an internal test-framework to improve numerical verification of Simulink models.
 
 **Tech**:
+
 * C++, Python, XML
 """
 
