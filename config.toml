@@ -110,7 +110,7 @@ Alation is a metadata intelligence platform that allows businesses to harness th
 
 The Alation Metadata Catalog is an empty canvas until it is populated with metadata. I own, operate, and contribute to the platform infrastructure and services that enable pulling metadata from customers’ on-premise and cloud databases into Alation. That encompasses several components:
 
-* [Alation Agent](https://docs.alation.com/en/latest/cloud/AlationAgent/index.html): An on-premise appliance, accompanied by a suite of cloud services, customers install within their network boundary to bring in metadata into Alation’s cloud without compromising their security posture or opening holes in their firewall
+* [Alation Agent](https://docs.alation.com/en/latest/cloud/AlationAgent/index.html): An on-premise appliance customers install within their network boundary to bring in metadata from on-premise databases into Alation’s cloud without compromising their security posture or opening holes in their firewall. The appliance is supported by a suite of cloud native services to orchestrate and manage its connectivity.
 * [Open Connector Framework](https://docs.alation.com/en/latest/sources/OpenConnectorFramework/OCFOverview.html): a framework that enables Alation and its partners to quickly build database connectors
 * [Alation Connector Manager](https://docs.alation.com/en/latest/sources/OpenConnectorFramework/OCFOverview.html#alation-connector-manager): a stack that orchestrates and manages the database connectors both in Alation's cloud and in customers' environments
         
